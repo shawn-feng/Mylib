@@ -1,12 +1,12 @@
 #include"FXsort.h"
 
-/*int quick_sort(int num[],int left,int right){
+int quick_sort(int num[],int left,int right){
 
 	int mid = (left+right)/2;
 	printf("num[mid] is %d\n",num[mid]);
 	int r = right;
 	int l = left;
-	for(;l < r;l++,r--){
+	for(;l <= r;l++,r--){
 	
 		if(num[l] > num[mid]&& l<mid){
 		
@@ -41,9 +41,9 @@
 	return 0;
 
 
-}*/
+}
 
-int quick_sort(int data[],int left,int right){
+/*int quick_sort(int data[],int left,int right){
     int p=(left+right)/2;
     int pivot=data[p];
     int i=left,j=right;
@@ -71,4 +71,4 @@ int quick_sort(int data[],int left,int right){
         bubble_sort(data+p+1, right-p);
     }
     return 0;
-}
+}*/
